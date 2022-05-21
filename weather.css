@@ -1,0 +1,66 @@
+body{
+    background-image: url("photos/sea.jpg");
+    background-size: cover;
+}
+
+.leftsec{
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    width: 50%
+}
+
+.temp{
+    font-size: 160px;
+    color: white;
+    font-weight: 700;
+}
+
+.city{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+
+.rightsec{
+    height: 100vh;
+    border-left: 1px solid white;
+    position: absolute;
+    right: 0;
+    width: 700px;
+    backdrop-filter: blur(8px);
+}
+
+#searchInput{
+    background: transparent;
+    border: 0;
+    width:75%;
+    height: 80px;
+    border-bottom: 1px solid white;
+    outline: 0;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+::placeholder { 
+    color: #f2f2f2 ; 
+}
+
+.line{
+    width: 75%;
+    background-color: white;
+    height: 1px;
+    margin-top: 150px;
+    margin-left: 3px;
+}
+
+.rightsec h1{
+    color: white;
+}
+
+.details{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
